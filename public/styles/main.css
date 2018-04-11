@@ -1,4 +1,20 @@
-.nav {
+.navbar {
     background-color:rgb(255,82,82);
     color:white;
+}
+
+.banner {
+    display: flex;
+}
+
+.bannerText {
+    color: rgb(255,82,82);
+    letter-spacing: 20px;
+    font-size: 10em;
+    margin: 20px;
+    text-align: center;
+}
+
+.byline {
+    text-align: center;
 }
