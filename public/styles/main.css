@@ -1,6 +1,6 @@
 .navbar {
-    background-color:rgb(255,82,82);
-    color:white;
+    /*background-color:rgb(255,82,82);*/
+    color:rgb(161, 157, 157);
 }
 
 .banner {
@@ -8,11 +8,12 @@
 }
 
 .bannerText {
-    color: rgb(255,82,82);
+   /* color: rgb(255,82,82);*/
     letter-spacing: 20px;
     font-size: 10em;
     margin: 20px;
     text-align: center;
+    color:rgb(161, 157, 157);
 }
 
 .byline {
