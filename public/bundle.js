@@ -24581,21 +24581,56 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _animals = __webpack_require__(75);
+
+var _animals2 = _interopRequireDefault(_animals);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Home = function Home() {
   return _react2.default.createElement(
     'div',
     { className: 'home' },
-    _react2.default.createElement(
-      'p',
-      null,
-      'Hola chicaaaa'
-    )
+    _animals2.default.map(function (animal) {
+      return _react2.default.createElement(
+        'p',
+        { key: animal.id },
+        animal.name
+      );
+    })
   );
 };
 
 exports.default = Home;
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = [{
+    id: 1001,
+    name: 'Goose',
+    locationId: 2001,
+    Description: 'Fluffy, loves peanut butter'
+}, {
+    id: 1002,
+    name: 'Professer snape',
+    locationId: 2001,
+    Description: 'snek'
+}, {
+    id: 1003,
+    name: 'Captain wigglesbottom',
+    locationId: 2002,
+    Description: 'kittey'
+}, {
+    id: 1004,
+    name: 'bart',
+    locationId: 2003,
+    Description: 'three legged cow'
+}];
 
 /***/ })
 /******/ ]);

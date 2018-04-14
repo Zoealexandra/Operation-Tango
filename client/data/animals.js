@@ -1,4 +1,4 @@
-const Animals = [
+module.exports = [
     {
         id: 1001,
         name: 'Goose',

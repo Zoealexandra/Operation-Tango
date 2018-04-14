@@ -1,9 +1,15 @@
 import React from 'react'
 
+import animals from '../data/animals.js'
+
 const Home = () => {
   return (
     <div className='home'>
-      <p>Hola chicaaaa</p>
+      {animals.map(animal => {
+          return (
+      <p key={animal.id}>{animal.name}</p>
+        )
+      })}
     </div>
   )
 }
